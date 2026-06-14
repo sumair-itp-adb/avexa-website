@@ -3,23 +3,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://YOUR-DOMAIN/</loc>
+<loc>https://avexa-website.vercel.app/</loc>
 </url>
 
 <url>
-<loc>https://YOUR-DOMAIN/about.html</loc>
+<loc>https://avexa-website.vercel.app/about.html</loc>
 </url>
 
 <url>
-<loc>https://YOUR-DOMAIN/businesses.html</loc>
+<loc>https://avexa-website.vercel.app/businesses.html</loc>
 </url>
 
 <url>
-<loc>https://YOUR-DOMAIN/recycling.html</loc>
+<loc>https://avexa-website.vercel.app/recycling.html</loc>
 </url>
 
 <url>
-<loc>https://YOUR-DOMAIN/contact.html</loc>
+<loc>https://avexa-website.vercel.app/contact.html</loc>
 </url>
 
 </urlset>
