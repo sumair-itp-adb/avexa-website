@@ -831,3 +831,52 @@ body{
 overflow-x:hidden;
 }
 }
+
+
+
+
+
+/* LEAD FORM */
+
+.lead-form{
+max-width:700px;
+margin:80px auto;
+padding:40px;
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(212,175,55,0.3);
+border-radius:20px;
+}
+
+.lead-form h2{
+text-align:center;
+color:#d4af37;
+margin-bottom:25px;
+}
+
+.lead-form form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.lead-form input{
+padding:15px;
+border-radius:10px;
+border:none;
+font-size:16px;
+}
+
+.lead-form button{
+padding:15px;
+background:#25D366;
+color:white;
+border:none;
+border-radius:10px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.lead-form button:hover{
+transform:translateY(-2px);
+}
