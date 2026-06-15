@@ -175,6 +175,59 @@ nav{gap:15px;font-size:.9rem}
 </div>
 
 </section>
+  <section class="lead-form">
+
+    <h2>Request Oil Collection</h2>
+
+    <form onsubmit="sendWhatsApp(event)">
+
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <input type="text" id="business" placeholder="Restaurant / Hotel Name">
+
+        <input type="text" id="city" placeholder="City">
+
+        <input type="text" id="quantity" placeholder="Approx Litres Per Month">
+
+        <input type="tel" id="phone" placeholder="Phone Number" required>
+
+        <button type="submit">
+            Request Collection
+        </button>
+
+    </form>
+
+</section>
+
+<script>
+
+function sendWhatsApp(event){
+
+event.preventDefault();
+
+var name = document.getElementById("name").value;
+var business = document.getElementById("business").value;
+var city = document.getElementById("city").value;
+var quantity = document.getElementById("quantity").value;
+var phone = document.getElementById("phone").value;
+
+var message =
+"Oil Collection Request%0A%0A" +
+"Name: " + name + "%0A" +
+"Business: " + business + "%0A" +
+"City: " + city + "%0A" +
+"Quantity: " + quantity + "%0A" +
+"Phone: " + phone;
+
+window.open(
+"https://wa.me/916304273392?text=" + message,
+"_blank"
+);
+
+}
+
+</script>
+  
 <footer><p>© 2026 AVEXA Group. All Rights Reserved.</p></footer>
 </body>
 </html>
