@@ -752,3 +752,82 @@ border:1px solid rgba(61,220,132,.2);
 color:#d4af37;
 margin-bottom:10px;
 }
+
+
+
+
+/* MOBILE FIXES */
+
+@media (max-width:768px){
+
+nav{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+}
+
+.logo-area{
+flex-direction:column;
+text-align:center;
+}
+
+.logo-area img{
+width:140px;
+height:auto;
+}
+
+.hero h1,
+.recycling-overlay h1{
+font-size:2.2rem;
+line-height:1.2;
+}
+
+.hero p,
+.recycling-overlay p{
+font-size:1rem;
+}
+
+.image-section{
+display:flex;
+flex-direction:column;
+}
+
+.image-box img{
+width:100%;
+height:auto;
+}
+
+.gallery{
+grid-template-columns:1fr;
+}
+
+.business-grid{
+grid-template-columns:1fr;
+}
+
+.contact-container{
+grid-template-columns:1fr;
+}
+
+.cta-bar{
+grid-template-columns:1fr;
+}
+
+.areas-grid{
+grid-template-columns:1fr;
+}
+
+.faq-grid{
+grid-template-columns:1fr;
+}
+
+iframe{
+width:100%;
+height:250px;
+}
+
+body{
+overflow-x:hidden;
+}
+}
