@@ -659,3 +659,76 @@ opacity:.9;
 
 
 
+
+
+/* WhatsApp Button */
+
+.whatsapp-float{
+position:fixed;
+right:20px;
+bottom:90px;
+background:#25D366;
+color:white;
+padding:14px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+z-index:9999;
+box-shadow:0 0 20px rgba(37,211,102,.4);
+transition:.3s;
+}
+
+.whatsapp-float:hover{
+transform:translateY(-3px);
+}
+
+/* Call Button */
+
+.call-float{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#d4af37;
+color:black;
+padding:14px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+z-index:9999;
+box-shadow:0 0 20px rgba(212,175,55,.4);
+transition:.3s;
+}
+
+.call-float:hover{
+transform:translateY(-3px);
+}
+
+
+
+
+
+
+.areas-section{
+padding:80px 8%;
+text-align:center;
+}
+
+.areas-section h2{
+color:#3ddc84;
+margin-bottom:30px;
+}
+
+.areas-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+max-width:1000px;
+margin:auto;
+}
+
+.areas-grid div{
+padding:20px;
+border:1px solid rgba(212,175,55,.3);
+border-radius:15px;
+background:rgba(255,255,255,.03);
+}
